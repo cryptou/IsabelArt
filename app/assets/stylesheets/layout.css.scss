@@ -1,0 +1,36 @@
+$full-width: 900px;
+$background-color: black;
+$link-color: #09c;
+$visited-link-color: #069;
+$default-margin: 5px;
+
+.container {
+	width: $full-width;
+	margin: 0 auto;
+}
+
+body {
+	background: $background-color;
+}
+
+header {
+	height: 200px;
+	background: white;
+}
+
+nav {
+	margin-top: $default-margin;
+//	height: 40px;
+	padding: 10px;
+	background: white;
+}
+
+section {
+	padding: 10px;
+	margin-top: $default-margin;
+	background: white;
+
+	h1{
+		margin-top: 0px;
+	}
+}
