@@ -2,21 +2,18 @@
 <html>
 <head>
   <title><%= full_title(yield(:title)) %></title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= render 'layouts/stylesheets' %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 	<div class="container">
-		<header>
-			<strong>Isabel'Art</strong>
-		</header>
-		<nav>
-			<strong>Isabel'Art</strong>
-		</nav>
+		<%= render 'layouts/header' %>
+		<%= render 'layouts/nav' %>
 		<section>
 			<%= yield %>
 		</section>
+		<%= render 'layouts/footer'%>
 	</div>
 </body>
 </html>
