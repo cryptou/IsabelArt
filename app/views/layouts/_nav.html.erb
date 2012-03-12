@@ -1,8 +1,7 @@
 <nav>
-	<ul>
-		<li><%= link_to "Presentation", root_path %></li>
-		<li><%= link_to "China", "#" %></li>
-		<li><%= link_to "Gandara", "#" %></li>
-		<li><%= link_to "Contact us", contact_path %></li>
-	</ul>
+  <ul>
+    <li><%= link_to (t :home_title), home_path %></li>
+      <%= render @categories %>
+    <li><%= link_to (t :contact_title), contact_path %></li>
+  </ul>
 </nav>

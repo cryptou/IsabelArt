@@ -1,0 +1,13 @@
+es:
+  hello: "Hola mundo"
+  title: "Isabel'Art, Antiguedades de Chine y Asia"
+
+  home_title: "Presentación"
+  home_header1: "Galería Isabel'Art"
+  home_header2: "Pagina de presentación del sitio."
+  home_p1: "Podemos incluir información sobre la tienda y los artículos que ofrecemos."
+
+  contact_title: "Contáctenos"
+  contact_header1: "Contáctenos"
+  contact_header2: "Esta es la página de contacto para el sitio web."
+  contact_p1: "Podemos añadir nuestra dirección, número de teléfono y contactos de correo electrónico, así como una foto de la tienda y un mapa de Google."
