@@ -12,4 +12,6 @@ class Type < ActiveRecord::Base
   translates :title, :description
   globalize_accessors :locale => [:en, :fr, :es], :attributes => [:title, :description]
   has_many :products
+
+  validates_presence_of :title, :description
 end

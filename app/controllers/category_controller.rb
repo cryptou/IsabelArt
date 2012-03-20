@@ -1,4 +1,5 @@
 class CategoryController < ApplicationController
+
   def china
   end
 
